@@ -1,0 +1,25 @@
+{
+  "name": "image-search-api",
+  "version": "1.0.0",
+  "description": "A submission for: https://www.freecodecamp.com/challenges/image-search-abstraction-layer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "search",
+    "express",
+    "js",
+    "node"
+  ],
+  "author": "nathanJMonte",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "mongod": "^2.0.0"
+  }
+}
