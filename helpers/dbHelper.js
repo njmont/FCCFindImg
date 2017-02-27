@@ -1,6 +1,6 @@
 "use strict";
 const mongo = require('mongodb').MongoClient;
-const DBURL = "mongodb://find-img:searching...@ds163699.mlab.com:63699/find-img";
+const DBURL = process.env.DBURL;
 var db_helper = {
   createSearchRecord: function(urls, search, dateString) {
     //Create a new doc
